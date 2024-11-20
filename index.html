@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julian Macher Portfolio</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main Navigation">
+      <h1 id="site-title"><a href="#about-me">Julian Macher</a></h1>
+      <div id="burger-menu" class="burger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul id="nav-list">
+        <li><a href="#about-me" class="nav-link">About Me</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  
+  <section id="about-me">
+    <h2 class="about-title">Welcome,</h2>
+    <p class="about-text">I'm Julian, a passionate front-end developer with a background in automation and programming. I started my journey in the field of electrical engineering, and I've since transitioned to web development, where I create clean and interactive user interfaces.</p>
+    <p class="about-text">I love learning new technologies, solving complex problems, and bringing ideas to life on the web.</p>
+    <div id="skills-container">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JS</div>
+    </div>
+  </section>
+  <section id="projects" aria-labelledby="projects">
+    <h2>Projects</h2>
+    <div id="project-list">
+      <div class="project-item">
+        <h3>To-Do List App</h3>
+        <p>A simple and interactive to-do list application where users can add, edit, and delete tasks. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-item">
+        <h3>Weather App</h3>
+        <p>A weather app that allows users to check current weather conditions for any city by utilizing an external API.</p>
+      </div>
+      <div class="project-item">
+        <h3>Portfolio Website</h3>
+        <p>An elegant and responsive personal portfolio site to showcase my skills and projects. Built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-item">
+        <h3>Recipe Finder</h3>
+        <p>A recipe finder app that helps users discover recipes based on available ingredients. Utilizes an external recipe API to provide dynamic search functionality.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <h2>Get in touch.</h2>
+      <input type="hidden" name="access_key" value="5e59a667-1454-40d0-852f-3496f9562fc8">
+      <input type="text" name="name" placeholder="Your Name.." class="contact-input" required>
+      <input type="email" name="email" placeholder="Your Email.." class="contact-input" required>
+      <textarea name="message" placeholder="Your Message.." id="contact-message"></textarea>
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+      <button type="submit">Submit</button>
+    </form>
+    
+    
+  </section>
+  <footer>
+    <h3>Julian Macher</h3>
+    <p>Get in touch with me on Social Media</p>
+    <div id="socials">
+      <a href="" target="_blank"><img src="img\linkedin_3536569.png" alt="linkedIn"></a>
+      <a href="" target="_blank"><img src="img\github_3291695.png" alt="GitHub"></a>
+      <a href="" target="_blank"><img src="img\email_542689.png" alt="Email"></a>
+    </div>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>
